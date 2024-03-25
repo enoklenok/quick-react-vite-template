@@ -18,4 +18,10 @@ npm run dev
 - 필수 라이브러리 설치
 - 폴더 구조화
 
-#### 폴더 구조...
+#### 사용 라이브러리
+
+- react
+- react-router-dom
+
+- react-hook form
+- zustand (클라이언트 전역 상태 관리)
