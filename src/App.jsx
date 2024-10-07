@@ -1,22 +1,13 @@
-// # lib
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// * React
+import { BrowserRouter } from "react-router-dom";
 
-// # layout
-import { Private } from "@layout";
-
-// # pages
-import { Login, Main } from "@pages";
+import Router from "./Router";
 
 const App = () => {
   return (
-    <Router>
-      <Routes>
-        <Route element={<Private />}>
-          <Route path="/" element={<Main />} />
-        </Route>
-        <Route path="/login" element={<Login />} />
-      </Routes>
-    </Router>
+    <BrowserRouter>
+      <Router />
+    </BrowserRouter>
   );
 };
 

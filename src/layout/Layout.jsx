@@ -1,9 +1,11 @@
-import { Header, Sidebar, Footer } from "@layout";
+// * Layouts
+import { Content, Header, Sidebar, Footer } from "@layout";
 
-const Layout = ({ children }) => {
+const Layout = () => {
   return (
     <>
       <Header />
+      <Content />
       <Sidebar />
       <Footer />
     </>
